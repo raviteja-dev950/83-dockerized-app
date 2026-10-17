@@ -394,7 +394,7 @@ Image: 83-dockerized-app:latest
 
 Spring Boot API running inside Docker container on `localhost:9494` - Returns JSON with status Docker Ready.
 
-[Demo 1](screenshots/demo1.png)
+![Demo 1](screenshots/demo1.png)
 
 ---
 
@@ -402,7 +402,7 @@ Spring Boot API running inside Docker container on `localhost:9494` - Returns JS
 
 Docker build with `eclipse-temurin:21-jdk` - 9/9 steps FINISHED - 149.3s first pull + 19.91MB context.
 
-[Demo 2](screenshots/demo2.png)
+![Demo 2](screenshots/demo2.png)
 
 ---
 
@@ -410,7 +410,7 @@ Docker build with `eclipse-temurin:21-jdk` - 9/9 steps FINISHED - 149.3s first p
 
 Port conflict `bind: Only one usage...` fixed by `docker rm -f` + `netstat -ano` - Container `4abe5e549cce` Up Less than a second - Spring Boot banner v4.1.1.
 
-[Demo 3](screenshots/demo3.png)
+![Demo 3](screenshots/demo3.png)
 
 ---
 
@@ -418,7 +418,7 @@ Port conflict `bind: Only one usage...` fixed by `docker rm -f` + `netstat -ano`
 
 Compose error `found a tab character that violates indentation` fixed - Network Created + Container Started - `6f20e88900e4` - `0.0.0.0:9494->9494/tcp`.
 
-[Demo 4](screenshots/demo4.png)
+![Demo 4](screenshots/demo4.png)
 
 ---
 
@@ -426,7 +426,7 @@ Compose error `found a tab character that violates indentation` fixed - Network 
 
 Docker logs `dockerized-app-container` - Tomcat initialized with port 9494 - Root WebApplicationContext initialization completed in 2890 ms - Started Application in 6.505 seconds.
 
-[Demo 5](screenshots/demo5.png)
+![Demo 5](screenshots/demo5.png)
 
 ---
 
