@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    image: 83-dockerized-app
+    container_name: dockerized-app-container
+    ports:
+      - "9494:9494"
+    restart: unless-stopped

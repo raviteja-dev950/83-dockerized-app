@@ -1,0 +1,9 @@
+	target/*.original
+.git
+.gitignore
+.mvn
+mvnw
+mvnw.cmd
+.settings
+.project
+.classpath
